@@ -9,14 +9,17 @@ p,
 h1,
 h2,
 button {
-    font-family: sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
 
 h1 {
     padding-top: 12px;
     padding-bottom: 50px;
+
     font-weight: 700;
     font-size: 48px;
+    line-height: 65px;
+
     border-top: solid;
     border-color: #828282;
 }
@@ -24,7 +27,15 @@ h1 {
 h2{
     font-size: 34px;
     font-weight: 700;
+    line-height: 46px;
     padding-bottom: 50px;
+}
+
+p,
+a {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24.5px;
 }
 
 
@@ -34,7 +45,6 @@ h2 {
 }
 
 p {
-    font-weight: 400;
     padding-bottom: 30px;
 }
 
