@@ -60,7 +60,6 @@ header {
 
 .nav-list {
     margin: 0 auto;
-    width: 50%;
     text-align: center;
 }
 
@@ -121,7 +120,8 @@ li {
 
 .content {
     margin: 0 auto;
-    width: 970px;
+    width: 100%;
+    max-width: 970px;
 }
 
 .img-DN {
@@ -187,9 +187,7 @@ button {
     color: #828282;
 }
 
-
-
-
-
-
-
+img {
+    width: 100%;
+    height: auto;
+}
